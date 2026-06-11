@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amazingasprod-maker.github.io/Sunshine-Beauty/sitemap.xml

@@ -83,8 +83,8 @@ Champs obligatoires : nom, téléphone (format international, ex. +225), email, 
 
 ### SEO
 - HTML sémantique, un seul `h1`, métadonnées « maquilleuse professionnelle à Abidjan ».
-- Open Graph avec photo réelle, JSON-LD schema.org `BeautySalon` (adresse Abidjan, `areaServed`, tarifs, lien Facebook dans `sameAs`).
-- ⚠️ Le domaine `https://www.sunshinebeauty.ci/` utilisé dans les métadonnées est provisoire, à adapter lors de la mise en ligne.
+- Open Graph + Twitter Card avec photo réelle, JSON-LD schema.org `BeautySalon` (adresse Abidjan, `areaServed`, tarifs, lien Facebook dans `sameAs`), favicon SVG, `robots.txt` et `sitemap.xml`.
+- **URL publique** : https://amazingasprod-maker.github.io/Sunshine-Beauty/ (GitHub Pages, dépôt `amazingasprod-maker/Sunshine-Beauty`, branche `main`). Si un domaine personnalisé est acheté un jour, mettre à jour canonical, og:url, og:image, twitter:image, JSON-LD, robots.txt et sitemap.xml.
 
 ### Performances
 - Images en `loading="lazy"` (sauf hero en `fetchpriority="high"`), dimensions déclarées.
@@ -102,4 +102,4 @@ Champs obligatoires : nom, téléphone (format international, ex. +225), email, 
 1. Confirmer les chiffres « 10 ans d'expérience / 300+ mariées » (section À propos).
 2. Fournir de vrais témoignages clients.
 3. Fournir une URL Formspree pour activer l'envoi réel du formulaire.
-4. Confirmer le nom de domaine définitif avant mise en ligne.
+4. Éventuel domaine personnalisé (le site est en ligne sur GitHub Pages en attendant).
