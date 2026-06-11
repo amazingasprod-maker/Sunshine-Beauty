@@ -397,16 +397,13 @@ h1, h2, h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* Photo portrait : on garde le visage visible dans le cadrage large */
-  object-position: center 22%;
 }
 
 .hero__media::after {
   content: "";
   position: absolute;
   inset: 0;
-  /* Mobile : photo en plein écran derrière le texte, voile soutenu pour la lisibilité */
-  background: linear-gradient(to bottom, rgba(250, 247, 242, 0.9) 0%, rgba(250, 247, 242, 0.78) 55%, rgba(250, 247, 242, 0.55) 100%);
+  background: linear-gradient(to right, rgba(250, 247, 242, 0.92) 0%, rgba(250, 247, 242, 0.55) 60%, rgba(250, 247, 242, 0.2) 100%);
 }
 
 .hero__content {
@@ -685,8 +682,7 @@ h1, h2, h3 {
   position: relative;
   border-radius: var(--radius-md);
   overflow: hidden;
-  /* Format carré : les photos avant/après sont carrées */
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   box-shadow: var(--shadow-soft);
 }
 

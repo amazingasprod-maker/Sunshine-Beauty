@@ -38,19 +38,6 @@
 
 /* ===== Desktop (≥ 1024px) ===== */
 @media (min-width: 1024px) {
-  /* Hero : la photo occupe la moitié droite, le texte reste sur fond crème à gauche */
-  .hero__media {
-    inset: 0 0 0 45%;
-  }
-
-  .hero__media::after {
-    background: linear-gradient(to right, var(--color-cream) 0%, rgba(250, 247, 242, 0.25) 45%, rgba(250, 247, 242, 0) 100%);
-  }
-
-  .hero__content {
-    max-width: 560px;
-  }
-
   /* Navigation horizontale : on masque le burger */
   .burger {
     display: none;

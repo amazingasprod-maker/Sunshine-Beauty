@@ -15,7 +15,7 @@
   <meta property="og:title" content="Sunshine Beauty by Aimée Camille — Maquilleuse professionnelle">
   <meta property="og:description" content="Maquillage mariée, DC, DH, anniversaire, soirée et maquillage jour. Réservation au +225 07 48 40 15 48.">
   <meta property="og:url" content="https://www.sunshinebeauty.ci/">
-  <meta property="og:image" content="https://www.sunshinebeauty.ci/assets/images/mariage-traditionnel.jpg">
+  <meta property="og:image" content="https://www.sunshinebeauty.ci/assets/images/hero.svg">
 
   <!-- Polices -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,12 +38,11 @@
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Rue F34, 522",
-      "addressLocality": "Abidjan",
       "addressCountry": "CI"
     },
     "priceRange": "8000-40000 FCFA",
     "sameAs": [
-      "https://www.facebook.com/aimee.camille.sery.2025"
+      "https://www.facebook.com/search/top?q=Aim%C3%A9e%20Camille%20Sery"
     ]
   }
   </script>
@@ -83,7 +82,7 @@
     <!-- ===== 1. Accueil / Hero ===== -->
     <section class="hero" id="accueil" aria-label="Présentation">
       <div class="hero__media" aria-hidden="true">
-        <img src="assets/images/mariage-traditionnel.jpg" alt="" width="1536" height="2048" fetchpriority="high">
+        <img src="assets/images/hero.svg" alt="" width="1600" height="900" fetchpriority="high">
       </div>
       <div class="container hero__content">
         <p class="hero__eyebrow reveal">Sunshine Beauty · By Aimée Camille</p>
@@ -104,7 +103,7 @@
     <section class="section about" id="a-propos">
       <div class="container about__grid">
         <div class="about__media reveal">
-          <img src="assets/images/portrait.jpg" alt="Portrait d'Aimée Camille, maquilleuse professionnelle et fondatrice de Sunshine Beauty" width="1008" height="1792" loading="lazy">
+          <img src="assets/images/portrait.svg" alt="Portrait d'Aimée Camille, maquilleuse professionnelle et fondatrice de Sunshine Beauty" width="800" height="1000" loading="lazy">
           <div class="about__badge">
             <strong>10&nbsp;ans</strong>
             <span>d'expérience</span>
@@ -188,46 +187,59 @@
 
         <div class="portfolio__filters reveal" role="group" aria-label="Filtrer le portfolio par catégorie">
           <button class="filter-btn is-active" type="button" data-filter="tous">Tous</button>
-          <button class="filter-btn" type="button" data-filter="mariage">Mariée</button>
+          <button class="filter-btn" type="button" data-filter="mariage">Mariage</button>
           <button class="filter-btn" type="button" data-filter="beaute">Beauté</button>
-          <button class="filter-btn" type="button" data-filter="soiree">Soirée &amp; événements</button>
+          <button class="filter-btn" type="button" data-filter="shooting">Shooting</button>
+          <button class="filter-btn" type="button" data-filter="evenementiel">Événementiel</button>
         </div>
 
         <ul class="portfolio__grid" id="portfolio-grid">
           <li class="portfolio__item reveal" data-category="mariage">
-            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage de mariée traditionnelle">
-              <img src="assets/images/mariage-traditionnel.jpg" alt="Maquillage de mariée traditionnelle, lèvres rouges, attaché de foulard et bijoux dorés" width="1536" height="2048" loading="lazy">
-              <span class="portfolio__caption">Mariage traditionnel</span>
+            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage de mariée bohème">
+              <img src="assets/images/portfolio-1.svg" alt="Maquillage de mariée bohème, teint lumineux et tons nude" width="800" height="1000" loading="lazy">
+              <span class="portfolio__caption">Mariée bohème</span>
+            </button>
+          </li>
+          <li class="portfolio__item reveal" data-category="mariage">
+            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage de mariée élégance classique">
+              <img src="assets/images/portfolio-2.svg" alt="Maquillage de mariée classique, regard intensifié et lèvres rosées" width="800" height="1000" loading="lazy">
+              <span class="portfolio__caption">Élégance classique</span>
             </button>
           </li>
           <li class="portfolio__item reveal" data-category="beaute">
-            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage beauté éclat rosé">
-              <img src="assets/images/beaute-rose.jpg" alt="Maquillage beauté aux tons rosés, teint glowy et regard lumineux" width="1536" height="2048" loading="lazy">
-              <span class="portfolio__caption">Éclat rosé</span>
-            </button>
-          </li>
-          <li class="portfolio__item reveal" data-category="soiree">
-            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage de cérémonie en couleurs">
-              <img src="assets/images/apres-4.jpg" alt="Maquillage de cérémonie aux tons chauds, assorti à une tenue en pagne colorée" width="1536" height="2048" loading="lazy">
-              <span class="portfolio__caption">Cérémonie en couleurs</span>
-            </button>
-          </li>
-          <li class="portfolio__item reveal" data-category="soiree">
-            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage regard de soirée">
-              <img src="assets/images/apres-1.jpg" alt="Maquillage de soirée, regard intense aux tons prune" width="206" height="206" loading="lazy">
-              <span class="portfolio__caption">Regard de soirée</span>
+            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage beauté éclat doré">
+              <img src="assets/images/portfolio-3.svg" alt="Maquillage beauté aux reflets dorés, effet bonne mine" width="800" height="1000" loading="lazy">
+              <span class="portfolio__caption">Éclat doré</span>
             </button>
           </li>
           <li class="portfolio__item reveal" data-category="beaute">
-            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage douceur naturelle">
-              <img src="assets/images/apres-2.jpg" alt="Maquillage naturel et élégant aux tons doux" width="206" height="206" loading="lazy">
-              <span class="portfolio__caption">Douceur naturelle</span>
+            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage beauté douceur rosée">
+              <img src="assets/images/portfolio-4.svg" alt="Maquillage beauté tons rosés, rendu frais et naturel" width="800" height="1000" loading="lazy">
+              <span class="portfolio__caption">Douceur rosée</span>
             </button>
           </li>
-          <li class="portfolio__item reveal" data-category="beaute">
-            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage teint lumineux">
-              <img src="assets/images/apres-3.jpg" alt="Maquillage bonne mine, teint lumineux et regard souligné" width="206" height="206" loading="lazy">
-              <span class="portfolio__caption">Teint lumineux</span>
+          <li class="portfolio__item reveal" data-category="shooting">
+            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage éditorial mode pour shooting">
+              <img src="assets/images/portfolio-5.svg" alt="Maquillage éditorial mode pour shooting en studio" width="800" height="1000" loading="lazy">
+              <span class="portfolio__caption">Éditorial mode</span>
+            </button>
+          </li>
+          <li class="portfolio__item reveal" data-category="shooting">
+            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage pour portrait corporate">
+              <img src="assets/images/portfolio-6.svg" alt="Maquillage naturel pour portrait corporate professionnel" width="800" height="1000" loading="lazy">
+              <span class="portfolio__caption">Portrait corporate</span>
+            </button>
+          </li>
+          <li class="portfolio__item reveal" data-category="evenementiel">
+            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage de soirée glamour">
+              <img src="assets/images/portfolio-7.svg" alt="Maquillage de soirée glamour, smoky eyes sophistiqué" width="800" height="1000" loading="lazy">
+              <span class="portfolio__caption">Soirée glamour</span>
+            </button>
+          </li>
+          <li class="portfolio__item reveal" data-category="evenementiel">
+            <button type="button" class="portfolio__open" aria-label="Agrandir : maquillage pour gala">
+              <img src="assets/images/portfolio-8.svg" alt="Maquillage raffiné pour soirée de gala" width="800" height="1000" loading="lazy">
+              <span class="portfolio__caption">Soirée de gala</span>
             </button>
           </li>
         </ul>
@@ -236,34 +248,18 @@
         <p class="section__intro reveal">Déplacez le curseur pour découvrir la transformation.</p>
         <div class="ba-grid">
           <div class="ba reveal" style="--pos: 50%">
-            <img class="ba__img ba__img--avant" src="assets/images/avant-1.jpg" alt="Avant la mise en beauté de soirée" width="206" height="206" loading="lazy">
-            <img class="ba__img ba__img--apres" src="assets/images/apres-1.jpg" alt="Après la mise en beauté de soirée, regard intense" width="206" height="206" loading="lazy">
+            <img class="ba__img ba__img--avant" src="assets/images/avant-1.svg" alt="Avant la mise en beauté mariage" width="800" height="1000" loading="lazy">
+            <img class="ba__img ba__img--apres" src="assets/images/apres-1.svg" alt="Après la mise en beauté mariage" width="800" height="1000" loading="lazy">
+            <div class="ba__handle" aria-hidden="true"></div>
+            <input type="range" class="ba__range" min="0" max="100" value="50" aria-label="Comparer la photo avant et après, maquillage mariage">
+            <span class="ba__label ba__label--avant" aria-hidden="true">Avant</span>
+            <span class="ba__label ba__label--apres" aria-hidden="true">Après</span>
+          </div>
+          <div class="ba reveal" style="--pos: 50%">
+            <img class="ba__img ba__img--avant" src="assets/images/avant-2.svg" alt="Avant la mise en beauté de soirée" width="800" height="1000" loading="lazy">
+            <img class="ba__img ba__img--apres" src="assets/images/apres-2.svg" alt="Après la mise en beauté de soirée" width="800" height="1000" loading="lazy">
             <div class="ba__handle" aria-hidden="true"></div>
             <input type="range" class="ba__range" min="0" max="100" value="50" aria-label="Comparer la photo avant et après, maquillage de soirée">
-            <span class="ba__label ba__label--avant" aria-hidden="true">Avant</span>
-            <span class="ba__label ba__label--apres" aria-hidden="true">Après</span>
-          </div>
-          <div class="ba reveal" style="--pos: 50%">
-            <img class="ba__img ba__img--avant" src="assets/images/avant-2.jpg" alt="Avant la mise en beauté de cérémonie" width="206" height="206" loading="lazy">
-            <img class="ba__img ba__img--apres" src="assets/images/apres-2.jpg" alt="Après la mise en beauté de cérémonie, teint unifié et lumineux" width="206" height="206" loading="lazy">
-            <div class="ba__handle" aria-hidden="true"></div>
-            <input type="range" class="ba__range" min="0" max="100" value="50" aria-label="Comparer la photo avant et après, maquillage de cérémonie">
-            <span class="ba__label ba__label--avant" aria-hidden="true">Avant</span>
-            <span class="ba__label ba__label--apres" aria-hidden="true">Après</span>
-          </div>
-          <div class="ba reveal" style="--pos: 50%">
-            <img class="ba__img ba__img--avant" src="assets/images/avant-3.jpg" alt="Avant la mise en beauté" width="206" height="206" loading="lazy">
-            <img class="ba__img ba__img--apres" src="assets/images/apres-3.jpg" alt="Après la mise en beauté, teint bonne mine et regard souligné" width="206" height="206" loading="lazy">
-            <div class="ba__handle" aria-hidden="true"></div>
-            <input type="range" class="ba__range" min="0" max="100" value="50" aria-label="Comparer la photo avant et après, maquillage beauté">
-            <span class="ba__label ba__label--avant" aria-hidden="true">Avant</span>
-            <span class="ba__label ba__label--apres" aria-hidden="true">Après</span>
-          </div>
-          <div class="ba reveal" style="--pos: 50%">
-            <img class="ba__img ba__img--avant" src="assets/images/avant-4.jpg" alt="Avant la mise en beauté d'événement" width="206" height="206" loading="lazy">
-            <img class="ba__img ba__img--apres" src="assets/images/apres-4.jpg" alt="Après la mise en beauté d'événement, maquillage aux tons chauds" width="1536" height="2048" loading="lazy">
-            <div class="ba__handle" aria-hidden="true"></div>
-            <input type="range" class="ba__range" min="0" max="100" value="50" aria-label="Comparer la photo avant et après, maquillage d'événement">
             <span class="ba__label ba__label--avant" aria-hidden="true">Avant</span>
             <span class="ba__label ba__label--apres" aria-hidden="true">Après</span>
           </div>
@@ -389,7 +385,7 @@
           <details class="faq__item reveal">
             <summary>Vous déplacez-vous à domicile&nbsp;?</summary>
             <p>Oui, je me déplace à votre domicile, sur votre lieu de préparation ou d'événement. Vous pouvez aussi
-            venir directement au studio, Rue F34, 522, à Abidjan. Les frais de déplacement éventuels sont précisés dans le devis.</p>
+            venir directement au studio, Rue F34, 522. Les frais de déplacement éventuels sont précisés dans le devis.</p>
           </details>
           <details class="faq__item reveal">
             <summary>Combien de temps dure une prestation&nbsp;?</summary>
@@ -511,7 +507,7 @@
             <ul class="contact__details">
               <li>
                 <span class="contact__icon" aria-hidden="true">📍</span>
-                <span>Rue F34, 522, Abidjan<br><small>Déplacement à domicile possible</small></span>
+                <span>Rue F34, 522<br><small>Déplacement à domicile possible</small></span>
               </li>
               <li>
                 <span class="contact__icon" aria-hidden="true">📞</span>
@@ -532,7 +528,7 @@
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.4-3c-.3-.4 0-.5.1-.7l.4-.5c.1-.2.2-.3.3-.5v-.5c0-.1-.5-1.4-.7-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2l-.4-.2Z"/></svg>
                 WhatsApp
               </a>
-              <a href="https://www.facebook.com/aimee.camille.sery.2025" target="_blank" rel="noopener" class="social-link" aria-label="Me suivre sur Facebook : Aimée Camille Sery">
+              <a href="https://www.facebook.com/search/top?q=Aim%C3%A9e%20Camille%20Sery" target="_blank" rel="noopener" class="social-link" aria-label="Me suivre sur Facebook : Aimée Camille Sery">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12Z"/></svg>
                 Aimée Camille Sery
               </a>
@@ -556,7 +552,7 @@
     <div class="container footer__inner">
       <div class="footer__brand">
         <p class="logo logo--footer">Sunshine <span>Beauty</span></p>
-        <p>By Aimée Camille — Maquilleuse professionnelle<br>Rue F34, 522, Abidjan · +225 07 48 40 15 48</p>
+        <p>By Aimée Camille — Maquilleuse professionnelle<br>Rue F34, 522 · +225 07 48 40 15 48</p>
       </div>
       <nav class="footer__nav" aria-label="Navigation de pied de page">
         <a href="#a-propos">À propos</a>
@@ -566,7 +562,7 @@
         <a href="#contact">Contact</a>
       </nav>
       <div class="footer__socials">
-        <a href="https://www.facebook.com/aimee.camille.sery.2025" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+        <a href="https://www.facebook.com/search/top?q=Aim%C3%A9e%20Camille%20Sery" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
         <a href="https://wa.me/2250748401548" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
       </div>
     </div>
